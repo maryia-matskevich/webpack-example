@@ -10,6 +10,7 @@ module.exports = {
         filename: 'bundle.js',
     },
     devServer: {
+        allowedHosts: "all",
         static: {
             directory: path.join(__dirname, 'dist'),
         },
